@@ -1,0 +1,31 @@
+name: az_som_py310
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  # Core data science
+  - numpy>=1.26
+  - pandas>=2.0
+  - scipy>=1.13
+  - scikit-learn>=1.4
+  # Visualization
+  - matplotlib>=3.10
+  - seaborn>=0.13
+  # Chemistry tools
+  - rdkit>=2023.9
+  # Jupyter environment
+  - jupyter>=1.0
+  - ipykernel>=6.0
+  - ipywidgets>=8.0
+  # Utilities
+  - tqdm>=4.66
+  - joblib>=1.3
+  - pip:
+    - umap-learn>=0.5
+    - cdpkit>=1.2
+    - chembl-structure-pipeline>=1.2
+    - cairosvg>=2.7
+
+
