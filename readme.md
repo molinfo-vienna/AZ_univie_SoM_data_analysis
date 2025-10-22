@@ -1,5 +1,8 @@
 # Sites of Metabolism (SoMs) Data Analysis
-Code used in preprint [Metabolite Identification Data in Drug Discovery: Site-of-Metabolism Annotation, Analysis, and Exploration for Machine Learning](https://doi.org/10.26434/chemrxiv-2025-6mtq8) 
+
+[![DOI](https://img.shields.io/badge/DOI-10.1021/acs.molpharmaceut.5c00740-blue)](https://doi.org/10.1021/acs.molpharmaceut.5c00740)  
+
+Code used in [Metabolite Identification Data in Drug Discovery, Part 2: Site-of-Metabolism Annotation, Analysis, and Exploration for Machine Learning](https://doi.org/10.1021/acs.molpharmaceut.5c00740)
 
 Examplified by [AstraZeneca site-of-metabolism (SoM) data for 120 compounds](https://zenodo.org/records/15458631) and approved drugs from [DrugBank](https://go.drugbank.com/). 
 
@@ -26,6 +29,7 @@ Examplified by [AstraZeneca site-of-metabolism (SoM) data for 120 compounds](htt
 ## Notes
 - Data files are expected in the `data/` directory.
 - Outputs are written to the `output/` directory.
+- Active learning results generated using code from [FAME.AL](https://github.com/molinfo-vienna/FAME.AL)
 
 
 
